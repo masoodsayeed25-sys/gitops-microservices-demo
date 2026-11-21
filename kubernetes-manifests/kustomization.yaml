@@ -1,0 +1,7 @@
+apiVersion: kustomize.org/v1beta1
+kind: Kustomization
+resources:
+  - frontend.yaml
+images:
+  - name: ghcr.io/masoodsayeed25-sys/frontend
+    newTag: latest
